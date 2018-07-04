@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_aw1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_aw1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="40318170000001fs"></ZoomEndTime>
+      <Cursor1Time time="26952720000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/testbench_aw1/audio_wrapper_0/mclk_rst" type="logic">
+      <obj_property name="ElementShortName">mclk_rst</obj_property>
+      <obj_property name="ObjectShortName">mclk_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group70" type="group">
+      <obj_property name="label">tb behav i2s tx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_tx_0/ack" type="logic">
+         <obj_property name="ElementShortName">ack</obj_property>
+         <obj_property name="ObjectShortName">ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_tx_0/left" type="array">
+         <obj_property name="ElementShortName">left[23:0]</obj_property>
+         <obj_property name="ObjectShortName">left[23:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_tx_0/right" type="array">
+         <obj_property name="ElementShortName">right[23:0]</obj_property>
+         <obj_property name="ObjectShortName">right[23:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_tx_0/tx_mclk" type="logic">
+         <obj_property name="ElementShortName">tx_mclk</obj_property>
+         <obj_property name="ObjectShortName">tx_mclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_tx_0/tx_lrck" type="logic">
+         <obj_property name="ElementShortName">tx_lrck</obj_property>
+         <obj_property name="ObjectShortName">tx_lrck</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_tx_0/tx_sclk" type="logic">
+         <obj_property name="ElementShortName">tx_sclk</obj_property>
+         <obj_property name="ObjectShortName">tx_sclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_tx_0/tx_sdout" type="logic">
+         <obj_property name="ElementShortName">tx_sdout</obj_property>
+         <obj_property name="ObjectShortName">tx_sdout</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group71" type="group">
+      <obj_property name="label">tb behav i2s rx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_rx_0/rx_mclk" type="logic">
+         <obj_property name="ElementShortName">rx_mclk</obj_property>
+         <obj_property name="ObjectShortName">rx_mclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_rx_0/rx_lrck" type="logic">
+         <obj_property name="ElementShortName">rx_lrck</obj_property>
+         <obj_property name="ObjectShortName">rx_lrck</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_rx_0/rx_sclk" type="logic">
+         <obj_property name="ElementShortName">rx_sclk</obj_property>
+         <obj_property name="ObjectShortName">rx_sclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_rx_0/rx_sdin" type="logic">
+         <obj_property name="ElementShortName">rx_sdin</obj_property>
+         <obj_property name="ObjectShortName">rx_sdin</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_rx_0/ack" type="logic">
+         <obj_property name="ElementShortName">ack</obj_property>
+         <obj_property name="ObjectShortName">ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_rx_0/left" type="array">
+         <obj_property name="ElementShortName">left[23:0]</obj_property>
+         <obj_property name="ObjectShortName">left[23:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/tb_i2s_slave_rx_0/right" type="array">
+         <obj_property name="ElementShortName">right[23:0]</obj_property>
+         <obj_property name="ObjectShortName">right[23:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group22" type="group">
+      <obj_property name="label">i2s_master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/mclk" type="logic">
+         <obj_property name="ElementShortName">mclk</obj_property>
+         <obj_property name="ObjectShortName">mclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/mclk_rst" type="logic">
+         <obj_property name="ElementShortName">mclk_rst</obj_property>
+         <obj_property name="ObjectShortName">mclk_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/mclk_counter" type="array">
+         <obj_property name="ElementShortName">mclk_counter[8:0]</obj_property>
+         <obj_property name="ObjectShortName">mclk_counter[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/tx_ack" type="logic">
+         <obj_property name="ElementShortName">tx_ack</obj_property>
+         <obj_property name="ObjectShortName">tx_ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/tx_left" type="array">
+         <obj_property name="ElementShortName">tx_left[23:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_left[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/tx_right" type="array">
+         <obj_property name="ElementShortName">tx_right[23:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_right[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/tx_mclk" type="logic">
+         <obj_property name="ElementShortName">tx_mclk</obj_property>
+         <obj_property name="ObjectShortName">tx_mclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/tx_lrck" type="logic">
+         <obj_property name="ElementShortName">tx_lrck</obj_property>
+         <obj_property name="ObjectShortName">tx_lrck</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/tx_sclk" type="logic">
+         <obj_property name="ElementShortName">tx_sclk</obj_property>
+         <obj_property name="ObjectShortName">tx_sclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/tx_sdout" type="logic">
+         <obj_property name="ElementShortName">tx_sdout</obj_property>
+         <obj_property name="ObjectShortName">tx_sdout</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/rx_mclk" type="logic">
+         <obj_property name="ElementShortName">rx_mclk</obj_property>
+         <obj_property name="ObjectShortName">rx_mclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/rx_lrck" type="logic">
+         <obj_property name="ElementShortName">rx_lrck</obj_property>
+         <obj_property name="ObjectShortName">rx_lrck</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/rx_sclk" type="logic">
+         <obj_property name="ElementShortName">rx_sclk</obj_property>
+         <obj_property name="ObjectShortName">rx_sclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/rx_sdin" type="logic">
+         <obj_property name="ElementShortName">rx_sdin</obj_property>
+         <obj_property name="ObjectShortName">rx_sdin</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/rx_valid" type="logic">
+         <obj_property name="ElementShortName">rx_valid</obj_property>
+         <obj_property name="ObjectShortName">rx_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/rx_left" type="array">
+         <obj_property name="ElementShortName">rx_left[23:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_left[23:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/i2s_master_48kHz_24b_0/rx_right" type="array">
+         <obj_property name="ElementShortName">rx_right[23:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_right[23:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group542" type="group">
+      <obj_property name="label">tb log10</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench_aw1/vin" type="logic">
+         <obj_property name="ElementShortName">vin</obj_property>
+         <obj_property name="ObjectShortName">vin</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/din" type="array">
+         <obj_property name="ElementShortName">din[23:0]</obj_property>
+         <obj_property name="ObjectShortName">din[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/log10_0/norm_v" type="logic">
+         <obj_property name="ElementShortName">norm_v</obj_property>
+         <obj_property name="ObjectShortName">norm_v</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/log10_0/norm_x" type="array">
+         <obj_property name="ElementShortName">norm_x[23:0]</obj_property>
+         <obj_property name="ObjectShortName">norm_x[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/log10_0/norm_y" type="array">
+         <obj_property name="ElementShortName">norm_y[16:0]</obj_property>
+         <obj_property name="ObjectShortName">norm_y[16:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/vout" type="logic">
+         <obj_property name="ElementShortName">vout</obj_property>
+         <obj_property name="ObjectShortName">vout</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/dout" type="array">
+         <obj_property name="ElementShortName">dout[16:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[16:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group541" type="group">
+      <obj_property name="label">peak detect</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/peak_valid" type="logic">
+         <obj_property name="ElementShortName">peak_valid</obj_property>
+         <obj_property name="ObjectShortName">peak_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/peak_left" type="array">
+         <obj_property name="ElementShortName">peak_left[22:0]</obj_property>
+         <obj_property name="ObjectShortName">peak_left[22:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/peak_right" type="array">
+         <obj_property name="ElementShortName">peak_right[22:0]</obj_property>
+         <obj_property name="ObjectShortName">peak_right[22:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group684" type="group">
+      <obj_property name="label">log10</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/log_valid" type="logic">
+         <obj_property name="ElementShortName">log_valid</obj_property>
+         <obj_property name="ObjectShortName">log_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/log_left" type="array">
+         <obj_property name="ElementShortName">log_left[16:0]</obj_property>
+         <obj_property name="ObjectShortName">log_left[16:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/log_right" type="array">
+         <obj_property name="ElementShortName">log_right[16:0]</obj_property>
+         <obj_property name="ObjectShortName">log_right[16:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/twentyLog10_valid" type="logic">
+         <obj_property name="ElementShortName">twentyLog10_valid</obj_property>
+         <obj_property name="ObjectShortName">twentyLog10_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/twentyLog10_left" type="array">
+         <obj_property name="ElementShortName">twentyLog10_left[20:0]</obj_property>
+         <obj_property name="ObjectShortName">twentyLog10_left[20:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/twentyLog10_right" type="array">
+         <obj_property name="ElementShortName">twentyLog10_right[20:0]</obj_property>
+         <obj_property name="ObjectShortName">twentyLog10_right[20:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/peak_detect_block_size" type="array">
+         <obj_property name="ElementShortName">peak_detect_block_size[9:0]</obj_property>
+         <obj_property name="ObjectShortName">peak_detect_block_size[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/audio_wrapper_S_AXI/peak_detect_block_size" type="array">
+         <obj_property name="ElementShortName">peak_detect_block_size[9:0]</obj_property>
+         <obj_property name="ObjectShortName">peak_detect_block_size[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/audio_wrapper_S_AXI/twentylog10_fifo_empty" type="logic">
+         <obj_property name="ElementShortName">twentylog10_fifo_empty</obj_property>
+         <obj_property name="ObjectShortName">twentylog10_fifo_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/audio_wrapper_S_AXI/twentylog10_fifo_read" type="logic">
+         <obj_property name="ElementShortName">twentylog10_fifo_read</obj_property>
+         <obj_property name="ObjectShortName">twentylog10_fifo_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/audio_wrapper_S_AXI/twentylog10_fifo_data" type="array">
+         <obj_property name="ElementShortName">twentylog10_fifo_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">twentylog10_fifo_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/audio_wrapper_S_AXI/timebase_reset_value" type="array">
+         <obj_property name="ElementShortName">timebase_reset_value[23:0]</obj_property>
+         <obj_property name="ObjectShortName">timebase_reset_value[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/audio_wrapper_S_AXI/timebase_flag" type="logic">
+         <obj_property name="ElementShortName">timebase_flag</obj_property>
+         <obj_property name="ObjectShortName">timebase_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/audio_wrapper_S_AXI/timebase_flag_clear" type="logic">
+         <obj_property name="ElementShortName">timebase_flag_clear</obj_property>
+         <obj_property name="ObjectShortName">timebase_flag_clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/audio_wrapper_S_AXI/S_AXI_ACLK" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/audio_wrapper_S_AXI/S_AXI_ARESETN" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/s00_axi_aclk" type="logic">
+         <obj_property name="ElementShortName">s00_axi_aclk</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_aclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/s00_axi_aresetn" type="logic">
+         <obj_property name="ElementShortName">s00_axi_aresetn</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_aresetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/wr_clk" type="logic">
+         <obj_property name="ElementShortName">wr_clk</obj_property>
+         <obj_property name="ObjectShortName">wr_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/rd_clk" type="logic">
+         <obj_property name="ElementShortName">rd_clk</obj_property>
+         <obj_property name="ObjectShortName">rd_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din" type="array">
+         <obj_property name="ElementShortName">din[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/dout" type="array">
+         <obj_property name="ElementShortName">dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus1047" type="vbus">
+      <obj_property name="label">New Virtual Bus</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_aw1/audio_wrapper_0/fifo_twentylog10/din[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
