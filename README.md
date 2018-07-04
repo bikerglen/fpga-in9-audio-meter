@@ -1,13 +1,13 @@
 # fpga-in9-audio-meter
-Clone repo to convenient location
-Launch Vivado 2018.2
-In TCL console:
-cd <path to create project>
-source <path to repo>/vivado/create-project.tcl
-generate bitstream
-export hardware / local / do not include bitstream
-launch sdk
-create new standalone hello world application
-replace helloworld C code with contents of sdk-c/helloworld.c
-
-to do: rewrite cordic using generate loops
+<p>Clone repo to convenient location</p>
+<p>Launch Vivado 2018.2</p>
+<p>In TCL console:</p>
+<p>cd [path to create project]</p>
+<p>source [path to repo]/vivado/create-project.tcl</p>
+<p>generate bitstream</p>
+<p>export hardware / local / do not include bitstream</p>
+<p>launch sdk</p>
+<p>create new standalone hello world application</p>
+<p>replace helloworld C code with contents of sdk-c/helloworld.c</p>
+</p>
+<p>to do: rewrite cordic using generate loops</p>
