@@ -7,7 +7,8 @@
 <p>generate bitstream</p>
 <p>export hardware / local / do not include bitstream</p>
 <p>launch sdk</p>
-<p>create new standalone hello world application</p>
+<p>create new xilinx standalone hello world application</p>
 <p>replace helloworld C code with contents of sdk-c/helloworld.c</p>
+<p>add 'm' to helloworld -> properties -> C/C++ Build -> Settings -> Libraries
 </p>
 <p>to do: rewrite cordic using generate loops</p>
